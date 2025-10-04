@@ -50,34 +50,34 @@ import img49 from './assets/allProducts/img (49).jpg';
 import img50 from './assets/allProducts/img (50).jpg';
 import img51 from './assets/allProducts/img (51).jpg';
 import img52 from './assets/allProducts/img (52).jpg';
-import img53 from './assets/allProducts/img (53).jpg';
-import img54 from './assets/allProducts/img (54).jpg';
-import img55 from './assets/allProducts/img (55).jpg';
-import img56 from './assets/allProducts/img (56).jpg';
-import img57 from './assets/allProducts/img (57).jpg';
-import img58 from './assets/allProducts/img (58).jpg';
-import img59 from './assets/allProducts/img (59).jpg';
-import img60 from './assets/allProducts/img (60).jpg';
-import img61 from './assets/allProducts/img (61).jpg';
-import img62 from './assets/allProducts/img (62).jpg';
-import img63 from './assets/allProducts/img (63).jpg';
-import img64 from './assets/allProducts/img (64).jpg';
-import img65 from './assets/allProducts/img (65).jpg';
-import img66 from './assets/allProducts/img (66).jpg';
-import img67 from './assets/allProducts/img (67).jpg';
-import img68 from './assets/allProducts/img (68).jpg';
-import img69 from './assets/allProducts/img (69).jpg';
-import img70 from './assets/allProducts/img (70).jpg';
-import img71 from './assets/allProducts/img (71).jpg';
-import img72 from './assets/allProducts/img (72).jpg';
-import img73 from './assets/allProducts/img (73).jpg';
-import img74 from './assets/allProducts/img (74).jpg';
-import img75 from './assets/allProducts/img (75).jpg';
-import img76 from './assets/allProducts/img (76).jpg';
-import img77 from './assets/allProducts/img (77).jpg';
-import img78 from './assets/allProducts/img (78).jpg';
-import img79 from './assets/allProducts/img (79).jpg';
-import img80 from './assets/allProducts/img (80).jpg';
+// import img53 from './assets/allProducts/img (53).jpg';
+// import img54 from './assets/allProducts/img (54).jpg';
+// import img55 from './assets/allProducts/img (55).jpg';
+// import img56 from './assets/allProducts/img (56).jpg';
+// import img57 from './assets/allProducts/img (57).jpg';
+// import img58 from './assets/allProducts/img (58).jpg';
+// import img59 from './assets/allProducts/img (59).jpg';
+// import img60 from './assets/allProducts/img (60).jpg';
+// import img61 from './assets/allProducts/img (61).jpg';
+// import img62 from './assets/allProducts/img (62).jpg';
+// import img63 from './assets/allProducts/img (63).jpg';
+// import img64 from './assets/allProducts/img (64).jpg';
+// import img65 from './assets/allProducts/img (65).jpg';
+// import img66 from './assets/allProducts/img (66).jpg';
+// import img67 from './assets/allProducts/img (67).jpg';
+// import img68 from './assets/allProducts/img (68).jpg';
+// import img69 from './assets/allProducts/img (69).jpg';
+// import img70 from './assets/allProducts/img (70).jpg';
+// import img71 from './assets/allProducts/img (71).jpg';
+// import img72 from './assets/allProducts/img (72).jpg';
+// import img73 from './assets/allProducts/img (73).jpg';
+// import img74 from './assets/allProducts/img (74).jpg';
+// import img75 from './assets/allProducts/img (75).jpg';
+// import img76 from './assets/allProducts/img (76).jpg';
+// import img77 from './assets/allProducts/img (77).jpg';
+// import img78 from './assets/allProducts/img (78).jpg';
+// import img79 from './assets/allProducts/img (79).jpg';
+// import img80 from './assets/allProducts/img (80).jpg';
 
 
 const products = [
@@ -883,62 +883,68 @@ mileage: '6,000 km',
 transmission: 'Automatic',
 image: img52,
 },
-{
-id: 53,
-name_en: 'Hyundai Ioniq 5',
-name_bn: 'হুন্ডাই আইওনিক ৫',
-brand: 'Hyundai',
-model: 'Ioniq 5',
-category: 'Electric',
-price: 27,
-shortDesc_en: 'Futuristic electric hatch with spacious interior and rapid charging.',
-shortDesc_bn: 'বিস্তৃত কেবিন ও দ্রুত চার্জিং সুবিধাসহ আধুনিক ইলেকট্রিক হ্যাচ।',
-year: 2022,
-mileage: '5,300 km',
-transmission: 'Automatic',
-image: img53,
-type: "old",
-},
-{
-price: 26,
-shortDesc_en: 'Driver-oriented sporty coupe with timeless appeal.',
-shortDesc_bn: 'ড্রাইভার-আধুনিক স্পোর্টি কুপে, সময়জনিত রোমাঞ্চে ভরা।',
-year: 2020,
-mileage: '23,000 km',
-transmission: 'Manual',
-image: img54,
-},
-{
-id: 55,
-name_en: 'Ford Ranger',
-name_bn: 'ফোর্ড রেঞ্জার',
-brand: 'Ford',
-model: 'Ranger',
-category: 'Truck',
-price: 17,
-shortDesc_en: 'Mid-size pickup with good towing and everyday practicality.',
-shortDesc_bn: 'ভালো টোয়িং ক্ষমতা ও দৈনন্দিন ব্যবহার উপযোগী মধ্য-আকার পিকআপ।',
-year: 2019,
-mileage: '36,000 km',
-transmission: 'Manual',
-image: img55,
-type: "old",
-},
-{
-id: 56,
-name_en: 'BMW i4',
-name_bn: 'বিএমডব্লিউ i4',
-brand: 'BMW',
-model: 'i4',
-category: 'Sedan',
-price: 31,
-shortDesc_en: 'Electric sedan combining BMW dynamics with electric efficiency.',
-shortDesc_bn: 'বিএমডব্লিউর ড্রাইভিং স্বতন্ত্রতা ও ইলেকট্রিক দক্ষতার সমন্বয়।',
-year: 2023,
-mileage: '4,500 km',
-transmission: 'Automatic',
-image: img56,
-},
+// {
+// id: 53,
+// name_en: 'Hyundai Ioniq 5',
+// name_bn: 'হুন্ডাই আইওনিক ৫',
+// brand: 'Hyundai',
+// model: 'Ioniq 5',
+// category: 'Electric',
+// price: 27,
+// shortDesc_en: 'Futuristic electric hatch with spacious interior and rapid charging.',
+// shortDesc_bn: 'বিস্তৃত কেবিন ও দ্রুত চার্জিং সুবিধাসহ আধুনিক ইলেকট্রিক হ্যাচ।',
+// year: 2022,
+// mileage: '5,300 km',
+// transmission: 'Automatic',
+// image: img53,
+// type: "old",
+// },
+// {
+//   id: 54,
+//   name_en: "Hyundai Ioniq 5",
+//   name_bn: 'হুন্ডাই আইওনিক ৫',
+//   brand: "Hyundai",
+//   model: "Ioniq 5",
+//   category: "truck",
+// price: 26,
+// shortDesc_en: 'Driver-oriented sporty coupe with timeless appeal.',
+// shortDesc_bn: 'ড্রাইভার-আধুনিক স্পোর্টি কুপে, সময়জনিত রোমাঞ্চে ভরা।',
+// year: 2020,
+// mileage: '23,000 km',
+// transmission: 'Manual',
+// image: img54,
+// },
+// {
+// id: 55,
+// name_en: 'Ford Ranger',
+// name_bn: 'ফোর্ড রেঞ্জার',
+// brand: 'Ford',
+// model: 'Ranger',
+// category: 'Truck',
+// price: 17,
+// shortDesc_en: 'Mid-size pickup with good towing and everyday practicality.',
+// shortDesc_bn: 'ভালো টোয়িং ক্ষমতা ও দৈনন্দিন ব্যবহার উপযোগী মধ্য-আকার পিকআপ।',
+// year: 2019,
+// mileage: '36,000 km',
+// transmission: 'Manual',
+// image: img55,
+// type: "old",
+// },
+// {
+// id: 56,
+// name_en: 'BMW i4',
+// name_bn: 'বিএমডব্লিউ i4',
+// brand: 'BMW',
+// model: 'i4',
+// category: 'Sedan',
+// price: 31,
+// shortDesc_en: 'Electric sedan combining BMW dynamics with electric efficiency.',
+// shortDesc_bn: 'বিএমডব্লিউর ড্রাইভিং স্বতন্ত্রতা ও ইলেকট্রিক দক্ষতার সমন্বয়।',
+// year: 2023,
+// mileage: '4,500 km',
+// transmission: 'Automatic',
+// image: img56,
+// },
 // {
 // id: 57,
 // name_en: 'Mercedes S-Class',
@@ -1289,7 +1295,7 @@ image: img56,
 // transmission: 'Automatic',
 // image: img80,
 // },
-// ];
+];
 
 
 export default products;
