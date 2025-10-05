@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../context/LanguageContext";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import img1 from '../assets/itemsImage/img (1).jpg'
 import img2 from '../assets/itemsImage/img (2).jpg'
@@ -35,6 +36,7 @@ import img29 from '../assets/itemsImage/img (29).jpg'
 import img30 from '../assets/itemsImage/img (30).jpg'
 import img31 from '../assets/itemsImage/img (31).jpg'
 import img32 from '../assets/itemsImage/img (32).jpg'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
 export default function DesktopAdvancedCarList() {
@@ -156,7 +158,7 @@ export default function DesktopAdvancedCarList() {
 >
   <Link to={`/cars/${car.id}`} className="flex flex-col h-full">
 
-    <img
+    <LazyLoadImage
       src={car.image}
       alt={language === "EN" ? car.name.EN : car.name.BN}
       className="w-full max-h-72 object-cover"

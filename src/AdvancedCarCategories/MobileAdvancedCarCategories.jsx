@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../context/LanguageContext";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 import img1 from '../assets/itemsImage/img (1).jpg'
@@ -36,6 +37,7 @@ import img29 from '../assets/itemsImage/img (29).jpg'
 import img30 from '../assets/itemsImage/img (30).jpg'
 import img31 from '../assets/itemsImage/img (31).jpg'
 import img32 from '../assets/itemsImage/img (32).jpg'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
 export default function MobileAdvancedCarList() {
@@ -146,7 +148,7 @@ const cars = [
    animate={{ opacity: 1, y: 0 }}
    transition={{ duration: 0.5 }}
 >
-  <img
+  <LazyLoadImage
     src={car.image}
     alt={language === "EN" ? car.name.EN : car.name.BN}
     className="w-full h-48 object-cover"
