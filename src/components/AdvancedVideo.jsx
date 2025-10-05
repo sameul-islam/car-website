@@ -8,7 +8,6 @@ import {
   CheckCircle,
 } from "lucide-react";
 import { LanguageContext } from "../context/LanguageContext";
-import selsVideo from '../assets/video/selsVideo.mp4';
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useRef, useEffect } from "react";
 
@@ -57,11 +56,12 @@ export default function VideoShowcase() {
             className="w-full relative flex items-center justify-center overflow-hidden rounded-md shadow-sm"
           >
              <motion.video
-              src={selsVideo}
+              src='/selsVideo.mp4'
               autoPlay
               loop
               muted
               playsInline
+              preload="metadata"
               className="w-[97%] sm:w-full h-[350px] sm:h-[520px] md:h-[550px] object-cover rounded-md mx-auto"
               style={{ willChange: "transform" }}
               whileInView={{ y: [-10, 0, -10] }}

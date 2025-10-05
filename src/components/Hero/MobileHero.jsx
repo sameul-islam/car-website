@@ -54,6 +54,7 @@ export default function MobileHero() {
             (img, idx) =>
               idx === currentIndex && (
                 <motion.img
+                  loading="lazy"
                   key={img}
                   src={img}
                   alt={`car ${idx}`}
