@@ -107,7 +107,7 @@ State partitioning: কিভাবে local vs shared state আলাদা ক
 
 URL-driven state: সার্চ/ফিল্টার কীভাবে URL-params দিয়ে প্রকাশিত হয়েছে (shareable links)
 
-Map + Filter integration: লোকেশন-ভিত্তিক ফিল্টার কৌতুক কিভাবে কাজ করে এবং ক্লাস্টারিং/প্রদর্শনের সিদ্ধান্ত কেমন
+Map + Filter integration: লোকেশন-ভিত্তিক ফিল্টার কিভাবে কাজ করে এবং ক্লাস্টারিং/প্রদর্শনের সিদ্ধান্ত কেমন
 
 Accessibility considerations: aria, semantic HTML, keyboard support
 
